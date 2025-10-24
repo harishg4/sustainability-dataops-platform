@@ -1,0 +1,8 @@
+{
+  "type": "general",
+  "setup": "What do you give to a lemon in need?",
+  "punchline": "Lemonaid.",
+  "id": 74,
+  "ingestion_timestamp": "2025-10-24T22:01:32.595057",
+  "source": "joke-api"
+}

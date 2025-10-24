@@ -1,0 +1,27 @@
+[
+  {
+    "timestamp": "2025-10-24T20:30Z",
+    "carbon_forecast": 57,
+    "carbon_actual": 64,
+    "carbon_index": "low",
+    "carbon_avg": 60.5,
+    "temperature": 10.2,
+    "humidity": 73,
+    "wind_speed": 14.7,
+    "weather_location": "London, UK",
+    "user_gender": "male",
+    "user_nationality": "UA",
+    "user_age": 53,
+    "user_country": "Ukraine",
+    "joke_type": "general",
+    "joke_setup": "What kind of dog lives in a particle accelerator?",
+    "joke_punchline": "A Fermilabrador Retriever.",
+    "ingestion_timestamp": "2025-10-24T21:25:59.391337",
+    "data_sources": [
+      "carbon_intensity",
+      "weather",
+      "user_data",
+      "joke_data"
+    ]
+  }
+]

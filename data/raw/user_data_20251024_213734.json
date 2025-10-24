@@ -1,0 +1,68 @@
+{
+  "results": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Joshua",
+        "last": "Frafjord"
+      },
+      "location": {
+        "street": {
+          "number": 7881,
+          "name": "Tjernfaret"
+        },
+        "city": "L\u00f8renfallet",
+        "state": "Telemark",
+        "country": "Norway",
+        "postcode": "7462",
+        "coordinates": {
+          "latitude": "39.2327",
+          "longitude": "-163.3340"
+        },
+        "timezone": {
+          "offset": "-1:00",
+          "description": "Azores, Cape Verde Islands"
+        }
+      },
+      "email": "joshua.frafjord@example.com",
+      "login": {
+        "uuid": "736cd7c1-6d82-47b4-a985-0e20dca34208",
+        "username": "lazygoose140",
+        "password": "marcus",
+        "salt": "z1HlCSry",
+        "md5": "be6053a3957fdd281d51505f99b2962b",
+        "sha1": "0d50736916193193f36e881e5b5a950a4789c18b",
+        "sha256": "4a208c82d3fee0801ececd4d9b6700c7883ba3d2ac745f05d7ac1747874ebc42"
+      },
+      "dob": {
+        "date": "1996-05-14T10:30:07.165Z",
+        "age": 29
+      },
+      "registered": {
+        "date": "2005-03-24T14:02:56.948Z",
+        "age": 20
+      },
+      "phone": "87622105",
+      "cell": "98219713",
+      "id": {
+        "name": "FN",
+        "value": "14059620577"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/5.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/5.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/5.jpg"
+      },
+      "nat": "NO"
+    }
+  ],
+  "info": {
+    "seed": "2136187c7f938cdd",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  },
+  "ingestion_timestamp": "2025-10-24T21:37:34.166190",
+  "source": "randomuser"
+}

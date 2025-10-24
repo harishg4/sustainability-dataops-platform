@@ -1,0 +1,68 @@
+{
+  "results": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Ekapad",
+        "last": "Tipparti"
+      },
+      "location": {
+        "street": {
+          "number": 3160,
+          "name": "NAD X Rd"
+        },
+        "city": "Panvel",
+        "state": "Uttar Pradesh",
+        "country": "India",
+        "postcode": 99463,
+        "coordinates": {
+          "latitude": "7.8837",
+          "longitude": "-28.9529"
+        },
+        "timezone": {
+          "offset": "+8:00",
+          "description": "Beijing, Perth, Singapore, Hong Kong"
+        }
+      },
+      "email": "ekapad.tipparti@example.com",
+      "login": {
+        "uuid": "5fd59bff-cb3d-4406-abd7-f2a2436c20f2",
+        "username": "ticklishkoala979",
+        "password": "pistons",
+        "salt": "YRm3qbz3",
+        "md5": "df87de6069f23e92b4508b3aa15ef7ef",
+        "sha1": "dc72983cdaef56396b74f6cd308bfde4112f33dc",
+        "sha256": "a9edf555b0e9e0774395315775f09971c0a36252c11bafe2005ce8b3b0803ce1"
+      },
+      "dob": {
+        "date": "1954-05-22T04:21:06.522Z",
+        "age": 71
+      },
+      "registered": {
+        "date": "2015-10-08T02:11:47.616Z",
+        "age": 10
+      },
+      "phone": "7237109155",
+      "cell": "9733262789",
+      "id": {
+        "name": "UIDAI",
+        "value": "272594988267"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/12.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/12.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/12.jpg"
+      },
+      "nat": "IN"
+    }
+  ],
+  "info": {
+    "seed": "6323f9622c5b126a",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  },
+  "ingestion_timestamp": "2025-10-24T21:11:25.991928",
+  "source": "randomuser"
+}

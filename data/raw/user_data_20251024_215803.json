@@ -1,0 +1,68 @@
+{
+  "results": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Finn",
+        "last": "Grundmann"
+      },
+      "location": {
+        "street": {
+          "number": 2675,
+          "name": "Berliner Stra\u00dfe"
+        },
+        "city": "Kitzingen",
+        "state": "Brandenburg",
+        "country": "Germany",
+        "postcode": 82455,
+        "coordinates": {
+          "latitude": "-52.7072",
+          "longitude": "-34.9819"
+        },
+        "timezone": {
+          "offset": "+8:00",
+          "description": "Beijing, Perth, Singapore, Hong Kong"
+        }
+      },
+      "email": "finn.grundmann@example.com",
+      "login": {
+        "uuid": "44d4173c-8efc-42da-b964-e24be382513b",
+        "username": "greenelephant911",
+        "password": "mercer",
+        "salt": "H48Xk2PC",
+        "md5": "b846c6d711a9ad55d37790b4321326a5",
+        "sha1": "18d069bbbdbe091362e5c29056af59b05131c7f8",
+        "sha256": "8a6725cb54417647b8df6b82028ce8ad481f1a853e4ff7ac40330a3dac3ce1de"
+      },
+      "dob": {
+        "date": "1954-08-09T14:57:33.965Z",
+        "age": 71
+      },
+      "registered": {
+        "date": "2008-03-02T20:15:15.060Z",
+        "age": 17
+      },
+      "phone": "0925-1301730",
+      "cell": "0179-3611269",
+      "id": {
+        "name": "SVNR",
+        "value": "63 090854 G 426"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/74.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/74.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/74.jpg"
+      },
+      "nat": "DE"
+    }
+  ],
+  "info": {
+    "seed": "5c4efc3ef3d8a54e",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  },
+  "ingestion_timestamp": "2025-10-24T21:58:03.038766",
+  "source": "randomuser"
+}

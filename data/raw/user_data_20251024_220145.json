@@ -1,0 +1,68 @@
+{
+  "results": [
+    {
+      "gender": "female",
+      "name": {
+        "title": "Mrs",
+        "first": "Ru\u017eica",
+        "last": "\u0160ari\u0107"
+      },
+      "location": {
+        "street": {
+          "number": 2962,
+          "name": "Jovana Valente "
+        },
+        "city": "Ba\u010dka Palanka",
+        "state": "Srem",
+        "country": "Serbia",
+        "postcode": 20214,
+        "coordinates": {
+          "latitude": "63.4397",
+          "longitude": "99.0714"
+        },
+        "timezone": {
+          "offset": "-2:00",
+          "description": "Mid-Atlantic"
+        }
+      },
+      "email": "ruzica.saric@example.com",
+      "login": {
+        "uuid": "ba76451d-14a0-4f14-8c10-83c0989ca3a1",
+        "username": "beautifullion297",
+        "password": "backdoor",
+        "salt": "sQc7dsdX",
+        "md5": "84b62ab43d126085835c08104923385c",
+        "sha1": "8ea42ef1e0f45c1723a96ac7bd3626b077e5b00b",
+        "sha256": "9bcf0bd61a2961553128047f26e30f75c5c81758c316b7e8444c4e1dae6c2928"
+      },
+      "dob": {
+        "date": "1990-01-20T15:59:19.427Z",
+        "age": 35
+      },
+      "registered": {
+        "date": "2002-04-21T19:51:32.496Z",
+        "age": 23
+      },
+      "phone": "025-7626-176",
+      "cell": "069-1055-717",
+      "id": {
+        "name": "SID",
+        "value": "179531975"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/55.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/55.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/55.jpg"
+      },
+      "nat": "RS"
+    }
+  ],
+  "info": {
+    "seed": "ee151cfb07f768d7",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  },
+  "ingestion_timestamp": "2025-10-24T22:01:45.566665",
+  "source": "randomuser"
+}

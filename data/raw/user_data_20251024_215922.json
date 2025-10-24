@@ -1,0 +1,68 @@
+{
+  "results": [
+    {
+      "gender": "female",
+      "name": {
+        "title": "Mrs",
+        "first": "Patricia",
+        "last": "Watson"
+      },
+      "location": {
+        "street": {
+          "number": 8,
+          "name": "Pearse Street"
+        },
+        "city": "Ratoath",
+        "state": "Dublin City",
+        "country": "Ireland",
+        "postcode": 83688,
+        "coordinates": {
+          "latitude": "0.0117",
+          "longitude": "70.8998"
+        },
+        "timezone": {
+          "offset": "-9:00",
+          "description": "Alaska"
+        }
+      },
+      "email": "patricia.watson@example.com",
+      "login": {
+        "uuid": "cf610ac3-d09c-4f06-aad2-7194fdf62ea2",
+        "username": "blackkoala206",
+        "password": "splash",
+        "salt": "bMW8bzyO",
+        "md5": "55591782dd74d90983d9ba571c31c4d4",
+        "sha1": "7804594ceb858e23fe003e32f7e62ccd0078a648",
+        "sha256": "3452837e06cb159fe51a920769d7e9926fbd552a453bb61947ae30cceb18926b"
+      },
+      "dob": {
+        "date": "1976-11-28T20:49:28.087Z",
+        "age": 48
+      },
+      "registered": {
+        "date": "2008-02-29T21:36:32.313Z",
+        "age": 17
+      },
+      "phone": "061-941-9613",
+      "cell": "081-183-3689",
+      "id": {
+        "name": "PPS",
+        "value": "0312983T"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/94.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/94.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/94.jpg"
+      },
+      "nat": "IE"
+    }
+  ],
+  "info": {
+    "seed": "14eddb6a3789ba71",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  },
+  "ingestion_timestamp": "2025-10-24T21:59:22.143617",
+  "source": "randomuser"
+}

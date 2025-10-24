@@ -1,0 +1,8 @@
+{
+  "type": "general",
+  "setup": "What did the spaghetti say to the other spaghetti?",
+  "punchline": "Pasta la vista, baby!",
+  "id": 148,
+  "ingestion_timestamp": "2025-10-24T21:58:03.100722",
+  "source": "joke-api"
+}

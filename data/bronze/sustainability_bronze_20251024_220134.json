@@ -1,0 +1,27 @@
+[
+  {
+    "timestamp": "2025-10-24T21:30Z",
+    "carbon_forecast": 54,
+    "carbon_actual": 54,
+    "carbon_index": "low",
+    "carbon_avg": 54.0,
+    "temperature": 10.2,
+    "humidity": 76,
+    "wind_speed": 13.2,
+    "weather_location": "London, UK",
+    "user_gender": "male",
+    "user_nationality": "US",
+    "user_age": 57,
+    "user_country": "United States",
+    "joke_type": "general",
+    "joke_setup": "What do you give to a lemon in need?",
+    "joke_punchline": "Lemonaid.",
+    "ingestion_timestamp": "2025-10-24T22:01:34.765749",
+    "data_sources": [
+      "carbon_intensity",
+      "weather",
+      "user_data",
+      "joke_data"
+    ]
+  }
+]

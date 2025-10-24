@@ -1,0 +1,27 @@
+[
+  {
+    "timestamp": "2025-10-24T21:30Z",
+    "carbon_forecast": 54,
+    "carbon_actual": 54,
+    "carbon_index": "low",
+    "carbon_avg": 54.0,
+    "temperature": 10.2,
+    "humidity": 76,
+    "wind_speed": 13.2,
+    "weather_location": "London, UK",
+    "user_gender": "female",
+    "user_nationality": "TR",
+    "user_age": 24,
+    "user_country": "Turkey",
+    "joke_type": "general",
+    "joke_setup": "What's black and white and read all over?",
+    "joke_punchline": "The newspaper.",
+    "ingestion_timestamp": "2025-10-24T22:00:26.874721",
+    "data_sources": [
+      "carbon_intensity",
+      "weather",
+      "user_data",
+      "joke_data"
+    ]
+  }
+]

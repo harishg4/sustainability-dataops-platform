@@ -1,0 +1,68 @@
+{
+  "results": [
+    {
+      "gender": "female",
+      "name": {
+        "title": "Mrs",
+        "first": "Shraddha",
+        "last": "Chiplunkar"
+      },
+      "location": {
+        "street": {
+          "number": 9281,
+          "name": "Colaba Causeway"
+        },
+        "city": "Panipat",
+        "state": "Haryana",
+        "country": "India",
+        "postcode": 69673,
+        "coordinates": {
+          "latitude": "6.6054",
+          "longitude": "51.6822"
+        },
+        "timezone": {
+          "offset": "-10:00",
+          "description": "Hawaii"
+        }
+      },
+      "email": "shraddha.chiplunkar@example.com",
+      "login": {
+        "uuid": "c3a1e3b5-ad9b-45a5-826c-cd98d837070e",
+        "username": "silverpeacock886",
+        "password": "grateful",
+        "salt": "1JRvNwcj",
+        "md5": "c5aaa6715b5b25eca919bf3d16254067",
+        "sha1": "4c913ee0b29a1bc43f5c23d884738e72475924aa",
+        "sha256": "b01b0c9a5f12efbb9a16d05976d90765847ea896a0231cfa0e14ee495fc6388f"
+      },
+      "dob": {
+        "date": "1978-07-31T04:00:24.560Z",
+        "age": 47
+      },
+      "registered": {
+        "date": "2013-04-11T14:29:47.369Z",
+        "age": 12
+      },
+      "phone": "8240409957",
+      "cell": "7969690498",
+      "id": {
+        "name": "UIDAI",
+        "value": "512789034797"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/83.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/83.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/83.jpg"
+      },
+      "nat": "IN"
+    }
+  ],
+  "info": {
+    "seed": "9495c54ef61ba618",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  },
+  "ingestion_timestamp": "2025-10-24T21:56:54.921705",
+  "source": "randomuser"
+}

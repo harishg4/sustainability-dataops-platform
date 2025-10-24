@@ -1,0 +1,68 @@
+{
+  "results": [
+    {
+      "gender": "female",
+      "name": {
+        "title": "Miss",
+        "first": "Justine",
+        "last": "Grewal"
+      },
+      "location": {
+        "street": {
+          "number": 5262,
+          "name": "West Ave"
+        },
+        "city": "Cumberland",
+        "state": "Yukon",
+        "country": "Canada",
+        "postcode": "F3K 9R2",
+        "coordinates": {
+          "latitude": "-65.8680",
+          "longitude": "42.0519"
+        },
+        "timezone": {
+          "offset": "-1:00",
+          "description": "Azores, Cape Verde Islands"
+        }
+      },
+      "email": "justine.grewal@example.com",
+      "login": {
+        "uuid": "a6268f3e-f5d3-4a9d-af1e-685b894ca9b4",
+        "username": "tinykoala561",
+        "password": "abc123",
+        "salt": "t1oNK2z0",
+        "md5": "13e5e077f974ea3cd8c616f59f6d30cf",
+        "sha1": "90f8067316eaa8e7579f8ea69b9bca436ff74a61",
+        "sha256": "07a90fc8fb7aee43712d0ef64ed0018c672a99b639d384dec1b2cbfcbf41ace4"
+      },
+      "dob": {
+        "date": "1963-07-06T13:30:32.845Z",
+        "age": 62
+      },
+      "registered": {
+        "date": "2016-03-12T10:35:36.730Z",
+        "age": 9
+      },
+      "phone": "P27 R67-2944",
+      "cell": "U77 P08-6714",
+      "id": {
+        "name": "SIN",
+        "value": "725508048"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/52.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/52.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/52.jpg"
+      },
+      "nat": "CA"
+    }
+  ],
+  "info": {
+    "seed": "61e73085654dd7a6",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  },
+  "ingestion_timestamp": "2025-10-24T21:57:46.515946",
+  "source": "randomuser"
+}

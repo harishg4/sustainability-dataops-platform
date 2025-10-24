@@ -1,0 +1,27 @@
+[
+  {
+    "timestamp": "2025-10-24T21:00Z",
+    "carbon_forecast": 62,
+    "carbon_actual": 64,
+    "carbon_index": "low",
+    "carbon_avg": 63.0,
+    "temperature": 10.2,
+    "humidity": 74,
+    "wind_speed": 14.2,
+    "weather_location": "London, UK",
+    "user_gender": "male",
+    "user_nationality": "NO",
+    "user_age": 29,
+    "user_country": "Norway",
+    "joke_type": "general",
+    "joke_setup": "What's the best time to go to the dentist?",
+    "joke_punchline": "Tooth hurty.",
+    "ingestion_timestamp": "2025-10-24T21:37:36.729295",
+    "data_sources": [
+      "carbon_intensity",
+      "weather",
+      "user_data",
+      "joke_data"
+    ]
+  }
+]

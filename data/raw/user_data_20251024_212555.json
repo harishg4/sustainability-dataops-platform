@@ -1,0 +1,68 @@
+{
+  "results": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Oleksa",
+        "last": "Troshchenko"
+      },
+      "location": {
+        "street": {
+          "number": 3102,
+          "name": "Kvitki-Osnov'yanenka"
+        },
+        "city": "Gerca",
+        "state": "Ternopilska",
+        "country": "Ukraine",
+        "postcode": 83248,
+        "coordinates": {
+          "latitude": "80.7993",
+          "longitude": "-42.7118"
+        },
+        "timezone": {
+          "offset": "+10:00",
+          "description": "Eastern Australia, Guam, Vladivostok"
+        }
+      },
+      "email": "oleksa.troshchenko@example.com",
+      "login": {
+        "uuid": "adf463cd-05e0-4533-82dc-c726a017007c",
+        "username": "ticklishpeacock790",
+        "password": "bp2002",
+        "salt": "dv6cwooc",
+        "md5": "8860c379b969696d670df190b2166561",
+        "sha1": "d60aac96e799249deba6909bfb80d63bedcc0f6e",
+        "sha256": "ee408b5f8c7ff0e7a66e84b4be847a6f36a18839d922ffe5c2a4ddfe94c4ffed"
+      },
+      "dob": {
+        "date": "1972-06-04T14:25:16.601Z",
+        "age": 53
+      },
+      "registered": {
+        "date": "2004-11-29T21:32:16.011Z",
+        "age": 20
+      },
+      "phone": "(097) A04-0047",
+      "cell": "(099) M16-8929",
+      "id": {
+        "name": "",
+        "value": null
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/39.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/39.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/39.jpg"
+      },
+      "nat": "UA"
+    }
+  ],
+  "info": {
+    "seed": "148c203f219a6be0",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  },
+  "ingestion_timestamp": "2025-10-24T21:25:55.398165",
+  "source": "randomuser"
+}

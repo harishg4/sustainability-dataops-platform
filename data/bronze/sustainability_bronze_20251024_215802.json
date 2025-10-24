@@ -1,0 +1,27 @@
+[
+  {
+    "timestamp": "2025-10-24T21:00Z",
+    "carbon_forecast": 62,
+    "carbon_actual": 54,
+    "carbon_index": "low",
+    "carbon_avg": 58.0,
+    "temperature": 10.2,
+    "humidity": 75,
+    "wind_speed": 13.7,
+    "weather_location": "London, UK",
+    "user_gender": "female",
+    "user_nationality": "AU",
+    "user_age": 75,
+    "user_country": "Australia",
+    "joke_type": "general",
+    "joke_setup": "What did the judge say to the dentist?",
+    "joke_punchline": "Do you swear to pull the tooth, the whole tooth and nothing but the tooth?",
+    "ingestion_timestamp": "2025-10-24T21:58:02.999094",
+    "data_sources": [
+      "carbon_intensity",
+      "weather",
+      "user_data",
+      "joke_data"
+    ]
+  }
+]

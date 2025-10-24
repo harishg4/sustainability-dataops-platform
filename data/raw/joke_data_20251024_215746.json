@@ -1,0 +1,8 @@
+{
+  "type": "dad",
+  "setup": "Why don't eggs tell jokes?",
+  "punchline": "Because they would crack each other up.",
+  "id": 384,
+  "ingestion_timestamp": "2025-10-24T21:57:46.573684",
+  "source": "joke-api"
+}

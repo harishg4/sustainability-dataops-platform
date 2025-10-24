@@ -1,0 +1,68 @@
+{
+  "results": [
+    {
+      "gender": "female",
+      "name": {
+        "title": "Ms",
+        "first": "Nellie",
+        "last": "Willis"
+      },
+      "location": {
+        "street": {
+          "number": 4044,
+          "name": "Mockingbird Ln"
+        },
+        "city": "Coffs Harbour",
+        "state": "Australian Capital Territory",
+        "country": "Australia",
+        "postcode": 4596,
+        "coordinates": {
+          "latitude": "-88.5423",
+          "longitude": "3.1641"
+        },
+        "timezone": {
+          "offset": "+4:00",
+          "description": "Abu Dhabi, Muscat, Baku, Tbilisi"
+        }
+      },
+      "email": "nellie.willis@example.com",
+      "login": {
+        "uuid": "bfba6840-183b-4cae-b966-0c38b7b4dfa7",
+        "username": "happybird830",
+        "password": "hannibal",
+        "salt": "HpUUP3EM",
+        "md5": "46985eeddbe727c856cb7ace845f748e",
+        "sha1": "3b818bcd691a930de7c4e33865712b1c30e30f43",
+        "sha256": "34e87a8a29860e6123cde21b2dc6d945645b3e6e21447baf561e536a04822a26"
+      },
+      "dob": {
+        "date": "1955-07-23T21:03:39.773Z",
+        "age": 70
+      },
+      "registered": {
+        "date": "2013-05-31T03:32:48.006Z",
+        "age": 12
+      },
+      "phone": "04-7289-6489",
+      "cell": "0480-964-765",
+      "id": {
+        "name": "TFN",
+        "value": "357854490"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/71.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/71.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/71.jpg"
+      },
+      "nat": "AU"
+    }
+  ],
+  "info": {
+    "seed": "218881fdd1cadf0a",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  },
+  "ingestion_timestamp": "2025-10-24T15:19:07.859572",
+  "source": "randomuser"
+}

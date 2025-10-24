@@ -1,0 +1,8 @@
+{
+  "type": "programming",
+  "setup": "Why did the programmer quit their job?",
+  "punchline": "They didn't get arrays.",
+  "id": 437,
+  "ingestion_timestamp": "2025-10-24T21:59:22.216300",
+  "source": "joke-api"
+}

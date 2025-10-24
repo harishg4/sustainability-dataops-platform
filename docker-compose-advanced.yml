@@ -31,6 +31,13 @@ services:
       AIRFLOW__WEBSERVER__EXPOSE_CONFIG: 'True'
       GX_ROOT: /opt/airflow/gx
       AIRFLOW_DATA: /opt/airflow/data
+      AWS_ACCESS_KEY_ID: minioadmin           
+      AWS_SECRET_ACCESS_KEY: minioadmin       
+      S3_ENDPOINT_URL: http://minio:9000      
+      AWS_DEFAULT_REGION: us-east-1   
+      _PIP_ADDITIONAL_REQUIREMENTS: "trino==0.330.0 pandas==2.2.2 great-expectations==0.18.17 requests==2.32.3"
+        
+
     volumes:
       - ./orchestration/airflow_dags:/opt/airflow/dags
       - ./airflow_plugins:/opt/airflow/plugins
@@ -39,6 +46,8 @@ services:
     depends_on:
       postgres:
         condition: service_healthy
+      minio:                                  
+        condition: service_started
 
   airflow-webserver:
     image: apache/airflow:2.9.0-python3.12
@@ -54,6 +63,12 @@ services:
       AIRFLOW__WEBSERVER__EXPOSE_CONFIG: 'True'
       GX_ROOT: /opt/airflow/gx
       AIRFLOW_DATA: /opt/airflow/data
+      AWS_ACCESS_KEY_ID: minioadmin           
+      AWS_SECRET_ACCESS_KEY: minioadmin       
+      S3_ENDPOINT_URL: http://minio:9000     
+      AWS_DEFAULT_REGION: us-east-1
+      _PIP_ADDITIONAL_REQUIREMENTS: "trino==0.330.0 pandas==2.2.2 great-expectations==0.18.17 requests==2.32.3"
+     
     volumes:
       - ./orchestration/airflow_dags:/opt/airflow/dags
       - ./airflow_plugins:/opt/airflow/plugins
@@ -62,6 +77,8 @@ services:
     depends_on:
       postgres:
         condition: service_healthy
+      minio:                                  
+        condition: service_started
 
   # New services for advanced architecture
   
@@ -183,7 +200,12 @@ services:
       - ./data:/home/jovyan/work/data
       - ./notebooks:/home/jovyan/work/notebooks
     command: "start-notebook.sh --NotebookApp.token='' --NotebookApp.password=''"
-
+  nessie:
+    image: ghcr.io/projectnessie/nessie:0.99.0
+    environment:
+      QUARKUS_HTTP_PORT: 19120
+    ports:
+      - "19120:19120"
 volumes:
   postgres_data:
   minio_data:

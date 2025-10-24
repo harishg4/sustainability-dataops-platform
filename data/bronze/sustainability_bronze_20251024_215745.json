@@ -1,0 +1,27 @@
+[
+  {
+    "timestamp": "2025-10-24T21:00Z",
+    "carbon_forecast": 62,
+    "carbon_actual": 54,
+    "carbon_index": "low",
+    "carbon_avg": 58.0,
+    "temperature": 10.2,
+    "humidity": 75,
+    "wind_speed": 13.7,
+    "weather_location": "London, UK",
+    "user_gender": "male",
+    "user_nationality": "FI",
+    "user_age": 71,
+    "user_country": "Finland",
+    "joke_type": "programming",
+    "joke_setup": "Lady: How do I spread love in this cruel world?",
+    "joke_punchline": "Random Dude: [...\ud83d\udc98]",
+    "ingestion_timestamp": "2025-10-24T21:57:45.865758",
+    "data_sources": [
+      "carbon_intensity",
+      "weather",
+      "user_data",
+      "joke_data"
+    ]
+  }
+]

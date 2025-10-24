@@ -1,0 +1,8 @@
+{
+  "type": "general",
+  "setup": "What do you call a factory that sells passable products?",
+  "punchline": "A satisfactory",
+  "id": 49,
+  "ingestion_timestamp": "2025-10-24T22:01:01.460117",
+  "source": "joke-api"
+}

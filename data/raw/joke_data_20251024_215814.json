@@ -1,0 +1,8 @@
+{
+  "type": "general",
+  "setup": "What's the difference between a guitar and a fish?",
+  "punchline": "You can tune a guitar but you can't \"tuna\"fish!",
+  "id": 270,
+  "ingestion_timestamp": "2025-10-24T21:58:14.552045",
+  "source": "joke-api"
+}

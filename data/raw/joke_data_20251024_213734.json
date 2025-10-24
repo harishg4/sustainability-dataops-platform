@@ -1,0 +1,8 @@
+{
+  "type": "general",
+  "setup": "What's the best time to go to the dentist?",
+  "punchline": "Tooth hurty.",
+  "id": 10,
+  "ingestion_timestamp": "2025-10-24T21:37:34.209734",
+  "source": "joke-api"
+}

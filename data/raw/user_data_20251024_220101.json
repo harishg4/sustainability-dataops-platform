@@ -1,0 +1,68 @@
+{
+  "results": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Rafael",
+        "last": "Bravo"
+      },
+      "location": {
+        "street": {
+          "number": 2264,
+          "name": "Avenida de La Albufera"
+        },
+        "city": "Granada",
+        "state": "Extremadura",
+        "country": "Spain",
+        "postcode": 75999,
+        "coordinates": {
+          "latitude": "-37.0835",
+          "longitude": "-176.1394"
+        },
+        "timezone": {
+          "offset": "-11:00",
+          "description": "Midway Island, Samoa"
+        }
+      },
+      "email": "rafael.bravo@example.com",
+      "login": {
+        "uuid": "d003259b-9f17-45d3-9c50-08ee474ea270",
+        "username": "goldenbear116",
+        "password": "semperfi",
+        "salt": "K9eCt1mg",
+        "md5": "b0f060eff81d6c916bde1f827467c6b5",
+        "sha1": "03e8b1e86e38b20d42d82b0b6592d6769fcf1a0f",
+        "sha256": "de0ea0b857cc50ae251619ed2347d0a724c769f9a30f7c97da0eabc1b97c9b12"
+      },
+      "dob": {
+        "date": "1974-02-13T21:45:28.544Z",
+        "age": 51
+      },
+      "registered": {
+        "date": "2020-05-06T18:34:14.249Z",
+        "age": 5
+      },
+      "phone": "934-286-140",
+      "cell": "673-201-307",
+      "id": {
+        "name": "DNI",
+        "value": "95601434-I"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/91.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/91.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/91.jpg"
+      },
+      "nat": "ES"
+    }
+  ],
+  "info": {
+    "seed": "1797b83f3c34ce7f",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  },
+  "ingestion_timestamp": "2025-10-24T22:01:01.443012",
+  "source": "randomuser"
+}

@@ -1,0 +1,68 @@
+{
+  "results": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Simon",
+        "last": "Martinez"
+      },
+      "location": {
+        "street": {
+          "number": 8717,
+          "name": "Rue des Cuirassiers"
+        },
+        "city": "Toulouse",
+        "state": "Pyr\u00e9n\u00e9es-Orientales",
+        "country": "France",
+        "postcode": 98260,
+        "coordinates": {
+          "latitude": "-16.3614",
+          "longitude": "-131.1628"
+        },
+        "timezone": {
+          "offset": "-11:00",
+          "description": "Midway Island, Samoa"
+        }
+      },
+      "email": "simon.martinez@example.com",
+      "login": {
+        "uuid": "da0dbecf-6bc9-42e5-a05d-4d5c8bc51030",
+        "username": "greensnake372",
+        "password": "1124",
+        "salt": "yRXJl4ux",
+        "md5": "91f427ecfc883227c71581e867e37a8c",
+        "sha1": "ee330985cda93061add34aeefa742254a9095d89",
+        "sha256": "09602e46e8ecd2e1b53f1a5ef6de47ae4b04bd4fbc64ad2a49f4ad47682e4c29"
+      },
+      "dob": {
+        "date": "1993-01-11T23:53:19.417Z",
+        "age": 32
+      },
+      "registered": {
+        "date": "2008-08-30T22:08:26.212Z",
+        "age": 17
+      },
+      "phone": "03-78-30-02-07",
+      "cell": "06-16-30-49-75",
+      "id": {
+        "name": "INSEE",
+        "value": "1930019159380 12"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/80.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/80.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/80.jpg"
+      },
+      "nat": "FR"
+    }
+  ],
+  "info": {
+    "seed": "5533a06f5cdd6e89",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  },
+  "ingestion_timestamp": "2025-10-24T21:58:14.522318",
+  "source": "randomuser"
+}

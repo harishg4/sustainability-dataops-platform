@@ -1,0 +1,8 @@
+{
+  "type": "general",
+  "setup": "What kind of dog lives in a particle accelerator?",
+  "punchline": "A Fermilabrador Retriever.",
+  "id": 253,
+  "ingestion_timestamp": "2025-10-24T21:25:55.376588",
+  "source": "joke-api"
+}

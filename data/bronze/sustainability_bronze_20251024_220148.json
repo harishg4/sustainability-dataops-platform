@@ -1,0 +1,27 @@
+[
+  {
+    "timestamp": "2025-10-24T21:30Z",
+    "carbon_forecast": 54,
+    "carbon_actual": 54,
+    "carbon_index": "low",
+    "carbon_avg": 54.0,
+    "temperature": 10.2,
+    "humidity": 76,
+    "wind_speed": 13.2,
+    "weather_location": "London, UK",
+    "user_gender": "female",
+    "user_nationality": "RS",
+    "user_age": 35,
+    "user_country": "Serbia",
+    "joke_type": "general",
+    "joke_setup": "Why did the belt go to prison?",
+    "joke_punchline": "He held up a pair of pants!",
+    "ingestion_timestamp": "2025-10-24T22:01:48.825623",
+    "data_sources": [
+      "carbon_intensity",
+      "weather",
+      "user_data",
+      "joke_data"
+    ]
+  }
+]

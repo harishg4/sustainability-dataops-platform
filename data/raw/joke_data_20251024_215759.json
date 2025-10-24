@@ -1,0 +1,8 @@
+{
+  "type": "general",
+  "setup": "What did the judge say to the dentist?",
+  "punchline": "Do you swear to pull the tooth, the whole tooth and nothing but the tooth?",
+  "id": 174,
+  "ingestion_timestamp": "2025-10-24T21:57:59.805386",
+  "source": "joke-api"
+}

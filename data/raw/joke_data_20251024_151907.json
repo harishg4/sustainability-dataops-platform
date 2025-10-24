@@ -1,0 +1,8 @@
+{
+  "type": "general",
+  "setup": "What do you call a droid that takes the long way around?",
+  "punchline": "R2 detour.",
+  "id": 201,
+  "ingestion_timestamp": "2025-10-24T15:19:07.880309",
+  "source": "joke-api"
+}

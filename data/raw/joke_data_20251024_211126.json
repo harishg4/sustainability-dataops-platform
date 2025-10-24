@@ -1,0 +1,8 @@
+{
+  "type": "general",
+  "setup": "Where did you learn to make ice cream?",
+  "punchline": "Sunday school.",
+  "id": 283,
+  "ingestion_timestamp": "2025-10-24T21:11:26.009807",
+  "source": "joke-api"
+}

@@ -1,0 +1,68 @@
+{
+  "results": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Aapo",
+        "last": "Kokko"
+      },
+      "location": {
+        "street": {
+          "number": 1738,
+          "name": "Korkeavuorenkatu"
+        },
+        "city": "Kyyj\u00e4rvi",
+        "state": "Southern Savonia",
+        "country": "Finland",
+        "postcode": 27926,
+        "coordinates": {
+          "latitude": "-27.2231",
+          "longitude": "-46.1408"
+        },
+        "timezone": {
+          "offset": "+5:00",
+          "description": "Ekaterinburg, Islamabad, Karachi, Tashkent"
+        }
+      },
+      "email": "aapo.kokko@example.com",
+      "login": {
+        "uuid": "05a256c3-0fe1-40f9-a8a5-e223b4eeebef",
+        "username": "purplefrog922",
+        "password": "legion",
+        "salt": "b84fc0MO",
+        "md5": "48696a1848b4e4dba6d3ca79bd5e3661",
+        "sha1": "6fe48fa60a852e67c3ba3fc19614747033dc35d7",
+        "sha256": "8a269c9e641f5ace09e481e8d015c7d0e6e83f6d0058879fa69c2dfcc59da960"
+      },
+      "dob": {
+        "date": "1954-07-01T15:52:13.336Z",
+        "age": 71
+      },
+      "registered": {
+        "date": "2005-05-07T02:43:57.104Z",
+        "age": 20
+      },
+      "phone": "07-299-978",
+      "cell": "049-792-78-71",
+      "id": {
+        "name": "HETU",
+        "value": "NaNNA135undefined"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/24.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/24.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/24.jpg"
+      },
+      "nat": "FI"
+    }
+  ],
+  "info": {
+    "seed": "687cdff77d6a7f9a",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  },
+  "ingestion_timestamp": "2025-10-24T21:57:42.037405",
+  "source": "randomuser"
+}

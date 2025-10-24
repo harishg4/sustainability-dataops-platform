@@ -1,0 +1,27 @@
+[
+  {
+    "timestamp": "2025-10-24T19:30Z",
+    "carbon_forecast": 64,
+    "carbon_actual": 67,
+    "carbon_index": "low",
+    "carbon_avg": 65.5,
+    "temperature": 10.4,
+    "humidity": 71,
+    "wind_speed": 15.6,
+    "weather_location": "London, UK",
+    "user_gender": "female",
+    "user_nationality": "AU",
+    "user_age": 70,
+    "user_country": "Australia",
+    "joke_type": "general",
+    "joke_setup": "What do you call a droid that takes the long way around?",
+    "joke_punchline": "R2 detour.",
+    "ingestion_timestamp": "2025-10-24T15:19:09.967821",
+    "data_sources": [
+      "carbon_intensity",
+      "weather",
+      "user_data",
+      "joke_data"
+    ]
+  }
+]

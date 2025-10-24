@@ -1,0 +1,8 @@
+{
+  "type": "general",
+  "setup": "What's black and white and read all over?",
+  "punchline": "The newspaper.",
+  "id": 264,
+  "ingestion_timestamp": "2025-10-24T22:00:24.199419",
+  "source": "joke-api"
+}

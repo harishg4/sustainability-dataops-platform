@@ -1,0 +1,27 @@
+[
+  {
+    "timestamp": "2025-10-24T20:30Z",
+    "carbon_forecast": 57,
+    "carbon_actual": 70,
+    "carbon_index": "low",
+    "carbon_avg": 63.5,
+    "temperature": 10.3,
+    "humidity": 72,
+    "wind_speed": 15.2,
+    "weather_location": "London, UK",
+    "user_gender": "male",
+    "user_nationality": "IN",
+    "user_age": 71,
+    "user_country": "India",
+    "joke_type": "general",
+    "joke_setup": "Where did you learn to make ice cream?",
+    "joke_punchline": "Sunday school.",
+    "ingestion_timestamp": "2025-10-24T21:11:30.313574",
+    "data_sources": [
+      "carbon_intensity",
+      "weather",
+      "user_data",
+      "joke_data"
+    ]
+  }
+]

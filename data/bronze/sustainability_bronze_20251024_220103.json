@@ -1,0 +1,27 @@
+[
+  {
+    "timestamp": "2025-10-24T21:30Z",
+    "carbon_forecast": 54,
+    "carbon_actual": 54,
+    "carbon_index": "low",
+    "carbon_avg": 54.0,
+    "temperature": 10.2,
+    "humidity": 76,
+    "wind_speed": 13.2,
+    "weather_location": "London, UK",
+    "user_gender": "male",
+    "user_nationality": "ES",
+    "user_age": 51,
+    "user_country": "Spain",
+    "joke_type": "general",
+    "joke_setup": "What do you call a factory that sells passable products?",
+    "joke_punchline": "A satisfactory",
+    "ingestion_timestamp": "2025-10-24T22:01:03.723940",
+    "data_sources": [
+      "carbon_intensity",
+      "weather",
+      "user_data",
+      "joke_data"
+    ]
+  }
+]

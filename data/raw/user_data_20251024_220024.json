@@ -1,0 +1,68 @@
+{
+  "results": [
+    {
+      "gender": "female",
+      "name": {
+        "title": "Ms",
+        "first": "G\u00fcl",
+        "last": "\u00c7atalba\u015f"
+      },
+      "location": {
+        "street": {
+          "number": 1787,
+          "name": "Fatih Sultan Mehmet Cd"
+        },
+        "city": "Burdur",
+        "state": "Kilis",
+        "country": "Turkey",
+        "postcode": 57732,
+        "coordinates": {
+          "latitude": "67.6557",
+          "longitude": "90.5446"
+        },
+        "timezone": {
+          "offset": "+11:00",
+          "description": "Magadan, Solomon Islands, New Caledonia"
+        }
+      },
+      "email": "gul.catalbas@example.com",
+      "login": {
+        "uuid": "8ebf2c2f-809a-4783-ade0-15f8493ae221",
+        "username": "angrybutterfly406",
+        "password": "technics",
+        "salt": "aLMEIm6Z",
+        "md5": "74109be63f9d01c74ffbcb3f4df8a497",
+        "sha1": "938eb5aa6dd7295dfb5a8345fb32d532d0184e21",
+        "sha256": "77019127d6f808c265b6dc01a36f954b8334a63720af1959e890569b1e273500"
+      },
+      "dob": {
+        "date": "2001-04-20T20:45:22.540Z",
+        "age": 24
+      },
+      "registered": {
+        "date": "2012-08-14T19:40:46.667Z",
+        "age": 13
+      },
+      "phone": "(626)-811-1819",
+      "cell": "(029)-202-5770",
+      "id": {
+        "name": "",
+        "value": null
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/27.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/27.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/27.jpg"
+      },
+      "nat": "TR"
+    }
+  ],
+  "info": {
+    "seed": "1fdc3b96fce3f515",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  },
+  "ingestion_timestamp": "2025-10-24T22:00:24.287008",
+  "source": "randomuser"
+}

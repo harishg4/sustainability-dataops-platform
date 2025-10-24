@@ -1,0 +1,68 @@
+{
+  "results": [
+    {
+      "gender": "female",
+      "name": {
+        "title": "Mrs",
+        "first": "Elizabeth",
+        "last": "Black"
+      },
+      "location": {
+        "street": {
+          "number": 8087,
+          "name": "Mcgowen St"
+        },
+        "city": "Port Macquarie",
+        "state": "Victoria",
+        "country": "Australia",
+        "postcode": 2589,
+        "coordinates": {
+          "latitude": "-86.1536",
+          "longitude": "148.7941"
+        },
+        "timezone": {
+          "offset": "+5:00",
+          "description": "Ekaterinburg, Islamabad, Karachi, Tashkent"
+        }
+      },
+      "email": "elizabeth.black@example.com",
+      "login": {
+        "uuid": "418bc8ad-028d-44d8-8cb8-7a1195b17f85",
+        "username": "lazyladybug689",
+        "password": "qwert1",
+        "salt": "iH2q2IXU",
+        "md5": "9610a3dcab4a11cbd1220d15b50d0986",
+        "sha1": "cd28ebbdc83509040aba48ecc4e962c86846c18c",
+        "sha256": "f1db6fa323c1229ec9338d70d4d2cc231b561e1a26b6e785cf3879ba7e897f9f"
+      },
+      "dob": {
+        "date": "1950-10-20T15:29:00.325Z",
+        "age": 75
+      },
+      "registered": {
+        "date": "2003-09-24T08:59:13.055Z",
+        "age": 22
+      },
+      "phone": "03-6149-5372",
+      "cell": "0436-733-641",
+      "id": {
+        "name": "TFN",
+        "value": "150694985"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/57.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/57.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/57.jpg"
+      },
+      "nat": "AU"
+    }
+  ],
+  "info": {
+    "seed": "b3fbb76d4ba90628",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  },
+  "ingestion_timestamp": "2025-10-24T21:57:59.749225",
+  "source": "randomuser"
+}

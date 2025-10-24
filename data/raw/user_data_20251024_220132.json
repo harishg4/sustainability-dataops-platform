@@ -1,0 +1,68 @@
+{
+  "results": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Perry",
+        "last": "Stevens"
+      },
+      "location": {
+        "street": {
+          "number": 2062,
+          "name": "Mockingbird Ln"
+        },
+        "city": "Allen",
+        "state": "Massachusetts",
+        "country": "United States",
+        "postcode": 61282,
+        "coordinates": {
+          "latitude": "88.5457",
+          "longitude": "-40.3357"
+        },
+        "timezone": {
+          "offset": "-3:00",
+          "description": "Brazil, Buenos Aires, Georgetown"
+        }
+      },
+      "email": "perry.stevens@example.com",
+      "login": {
+        "uuid": "cd538069-a751-47c8-bb0d-761f581f2757",
+        "username": "beautifulswan509",
+        "password": "rebelz",
+        "salt": "NEtgBVHD",
+        "md5": "f9547b15e7a1c759519bf0b610f20b02",
+        "sha1": "2c2f0588da326c35ecebeea0c4cce2767d742888",
+        "sha256": "929fc52ca2d0aa6ad395e05841752a5e34511e114e2c0048d21bb3fec3c324b4"
+      },
+      "dob": {
+        "date": "1968-04-22T23:32:08.785Z",
+        "age": 57
+      },
+      "registered": {
+        "date": "2004-02-09T03:32:31.074Z",
+        "age": 21
+      },
+      "phone": "(451) 914-3455",
+      "cell": "(253) 315-4982",
+      "id": {
+        "name": "SSN",
+        "value": "717-61-5715"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/98.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/98.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/98.jpg"
+      },
+      "nat": "US"
+    }
+  ],
+  "info": {
+    "seed": "0cdf82774c25fb81",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  },
+  "ingestion_timestamp": "2025-10-24T22:01:32.501416",
+  "source": "randomuser"
+}

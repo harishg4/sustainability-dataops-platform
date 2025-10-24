@@ -1,0 +1,27 @@
+[
+  {
+    "timestamp": "2025-10-24T21:00Z",
+    "carbon_forecast": 62,
+    "carbon_actual": 54,
+    "carbon_index": "low",
+    "carbon_avg": 58.0,
+    "temperature": 10.2,
+    "humidity": 75,
+    "wind_speed": 13.7,
+    "weather_location": "London, UK",
+    "user_gender": "female",
+    "user_nationality": "IN",
+    "user_age": 47,
+    "user_country": "India",
+    "joke_type": "general",
+    "joke_setup": "What did celery say when he broke up with his girlfriend?",
+    "joke_punchline": "She wasn't right for me, so I really don't carrot all.",
+    "ingestion_timestamp": "2025-10-24T21:56:59.742039",
+    "data_sources": [
+      "carbon_intensity",
+      "weather",
+      "user_data",
+      "joke_data"
+    ]
+  }
+]

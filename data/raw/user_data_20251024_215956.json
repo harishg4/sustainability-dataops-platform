@@ -1,0 +1,68 @@
+{
+  "results": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "James",
+        "last": "Burke"
+      },
+      "location": {
+        "street": {
+          "number": 8845,
+          "name": "St. John\u2019S Road"
+        },
+        "city": "Stevenage",
+        "state": "Isle of Wight",
+        "country": "United Kingdom",
+        "postcode": "TM53 0WL",
+        "coordinates": {
+          "latitude": "-8.3634",
+          "longitude": "-117.6158"
+        },
+        "timezone": {
+          "offset": "+8:00",
+          "description": "Beijing, Perth, Singapore, Hong Kong"
+        }
+      },
+      "email": "james.burke@example.com",
+      "login": {
+        "uuid": "71decc80-35d6-4074-93e7-6d6b991a7ed7",
+        "username": "tinyladybug480",
+        "password": "comics",
+        "salt": "mt2AdErv",
+        "md5": "8b56c69a35d2ebafe47527d8c50e1ba7",
+        "sha1": "fa8a7089b48ba6272429150d8da466845a471b64",
+        "sha256": "e2ae2957f115bb1625a4ef3aa4e1dc448a6d9d51e67811526d8ba3bed53fca18"
+      },
+      "dob": {
+        "date": "1991-10-07T03:01:47.675Z",
+        "age": 34
+      },
+      "registered": {
+        "date": "2009-10-17T17:59:43.796Z",
+        "age": 16
+      },
+      "phone": "01550 64884",
+      "cell": "07511 337708",
+      "id": {
+        "name": "NINO",
+        "value": "TZ 74 52 58 T"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/70.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/70.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/70.jpg"
+      },
+      "nat": "GB"
+    }
+  ],
+  "info": {
+    "seed": "13a2ca66370f8ede",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  },
+  "ingestion_timestamp": "2025-10-24T21:59:56.933520",
+  "source": "randomuser"
+}

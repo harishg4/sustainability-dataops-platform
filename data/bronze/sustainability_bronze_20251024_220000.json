@@ -1,0 +1,27 @@
+[
+  {
+    "timestamp": "2025-10-24T21:00Z",
+    "carbon_forecast": 62,
+    "carbon_actual": 54,
+    "carbon_index": "low",
+    "carbon_avg": 58.0,
+    "temperature": 10.2,
+    "humidity": 75,
+    "wind_speed": 13.7,
+    "weather_location": "London, UK",
+    "user_gender": "male",
+    "user_nationality": "GB",
+    "user_age": 34,
+    "user_country": "United Kingdom",
+    "joke_type": "general",
+    "joke_setup": "Why are skeletons so calm?",
+    "joke_punchline": "Because nothing gets under their skin.",
+    "ingestion_timestamp": "2025-10-24T22:00:00.135558",
+    "data_sources": [
+      "carbon_intensity",
+      "weather",
+      "user_data",
+      "joke_data"
+    ]
+  }
+]
