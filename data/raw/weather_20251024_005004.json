@@ -1,0 +1,26 @@
+{
+  "latitude": 51.5,
+  "longitude": -0.120000124,
+  "generationtime_ms": 4.673957824707031,
+  "utc_offset_seconds": 3600,
+  "timezone": "Europe/London",
+  "timezone_abbreviation": "GMT+1",
+  "elevation": 16.0,
+  "current_units": {
+    "time": "iso8601",
+    "interval": "seconds",
+    "temperature_2m": "\u00b0C",
+    "relative_humidity_2m": "%",
+    "wind_speed_10m": "km/h"
+  },
+  "current": {
+    "time": "2025-10-24T06:45",
+    "interval": 900,
+    "temperature_2m": 6.4,
+    "relative_humidity_2m": 85,
+    "wind_speed_10m": 12.6
+  },
+  "ingestion_timestamp": "2025-10-24T00:50:04.991802",
+  "source": "open-meteo",
+  "location": "London, UK"
+}

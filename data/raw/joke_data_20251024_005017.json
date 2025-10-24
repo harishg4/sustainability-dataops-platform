@@ -1,0 +1,8 @@
+{
+  "type": "general",
+  "setup": "What do you give a sick lemon?",
+  "punchline": "Lemonaid.",
+  "id": 233,
+  "ingestion_timestamp": "2025-10-24T00:50:17.579968",
+  "source": "joke-api"
+}

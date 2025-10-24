@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+
+
+# Airflow
+airflow_logs/
+*.pid
+
+
+# Data artifacts
+data/*.json
+data/*.jsonl
+data/*.csv
+
+
+# GE project cache
+data_quality/gx/uncommitted/
+
+
+# Docker
+.env
+**/.DS_Store

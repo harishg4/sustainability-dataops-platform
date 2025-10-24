@@ -1,0 +1,27 @@
+[
+  {
+    "timestamp": "2025-10-24T05:00Z",
+    "carbon_forecast": 73,
+    "carbon_actual": 57,
+    "carbon_index": "low",
+    "carbon_avg": 65.0,
+    "temperature": 6.4,
+    "humidity": 85,
+    "wind_speed": 12.6,
+    "weather_location": "London, UK",
+    "user_gender": "male",
+    "user_nationality": "TR",
+    "user_age": 44,
+    "user_country": "Turkey",
+    "joke_type": "general",
+    "joke_setup": "What do you give a sick lemon?",
+    "joke_punchline": "Lemonaid.",
+    "ingestion_timestamp": "2025-10-24T00:50:26.832776",
+    "data_sources": [
+      "carbon_intensity",
+      "weather",
+      "user_data",
+      "joke_data"
+    ]
+  }
+]

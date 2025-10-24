@@ -1,0 +1,110 @@
+# docker-compose.yml
+
+x-airflow-env: &airflow-env
+  AIRFLOW__CORE__EXECUTOR: LocalExecutor
+  AIRFLOW__CORE__LOAD_EXAMPLES: "false"
+  AIRFLOW__WEBSERVER__EXPOSE_CONFIG: "true"
+  AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
+  AIRFLOW_DATA: /opt/airflow/data
+  # GE 1.7.x: let get_context() pick up this root dir (no project_root arg)
+  GX_DATA_CONTEXT_ROOT_DIR: /opt/airflow/gx
+  _PIP_ADDITIONAL_REQUIREMENTS: |
+    psycopg2-binary==2.9.9
+    pandas
+    requests
+    great-expectations==1.7.1
+    slack-sdk
+  # Optional: set your timezone (nice for logs)
+  TZ: America/Chicago
+
+services:
+  postgres:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: airflow
+      POSTGRES_DB: airflow
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "airflow"]
+      interval: 5s
+      retries: 30
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    networks: [sustnet]
+    restart: unless-stopped
+
+  airflow-init:
+    image: apache/airflow:2.9.0-python3.12
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      <<: *airflow-env
+    volumes:
+      - ./orchestration/airflow_dags:/opt/airflow/dags
+      - ./airflow_logs:/opt/airflow/logs
+      - ./airflow_plugins:/opt/airflow/plugins
+      - ./data:/opt/airflow/data
+      - ./data_quality/gx:/opt/airflow/gx
+    command: >
+      bash -lc "
+      airflow db migrate &&
+      (airflow users create
+        --username admin
+        --password admin
+        --firstname Admin
+        --lastname User
+        --role Admin
+        --email admin@example.com || true)
+      "
+    networks: [sustnet]
+
+  airflow-webserver:
+    image: apache/airflow:2.9.0-python3.12
+    depends_on:
+      postgres:
+        condition: service_healthy
+      airflow-init:
+        condition: service_completed_successfully
+    environment:
+      <<: *airflow-env
+      # Optional: Slack alerts from your DAG (set only if you want it)
+      # SLACK_WEBHOOK_URL: "https://hooks.slack.com/services/XXX/YYY/ZZZ"
+    volumes:
+      - ./orchestration/airflow_dags:/opt/airflow/dags
+      - ./airflow_logs:/opt/airflow/logs
+      - ./airflow_plugins:/opt/airflow/plugins
+      - ./data:/opt/airflow/data
+      - ./data_quality/gx:/opt/airflow/gx
+    ports:
+      - "8081:8080"   # UI at http://localhost:8081
+    command: "webserver"
+    networks: [sustnet]
+    restart: unless-stopped
+
+  airflow-scheduler:
+    image: apache/airflow:2.9.0-python3.12
+    depends_on:
+      postgres:
+        condition: service_healthy
+      airflow-init:
+        condition: service_completed_successfully
+    environment:
+      <<: *airflow-env
+      # Optional: Slack alerts from your DAG (set only if you want it)
+      # SLACK_WEBHOOK_URL: "https://hooks.slack.com/services/XXX/YYY/ZZZ"
+    volumes:
+      - ./orchestration/airflow_dags:/opt/airflow/dags
+      - ./airflow_logs:/opt/airflow/logs
+      - ./airflow_plugins:/opt/airflow/plugins
+      - ./data:/opt/airflow/data
+      - ./data_quality/gx:/opt/airflow/gx
+    command: "scheduler"
+    networks: [sustnet]
+    restart: unless-stopped
+
+volumes:
+  pgdata:
+
+networks:
+  sustnet:

@@ -1,0 +1,13 @@
+{
+  "data": [
+    {
+      "from": "2025-10-24T05:00Z",
+      "to": "2025-10-24T05:30Z",
+      "intensity": {
+        "forecast": 73,
+        "actual": 57,
+        "index": "low"
+      }
+    }
+  ]
+}

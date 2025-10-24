@@ -1,0 +1,68 @@
+{
+  "results": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Artur",
+        "last": "Schjerven"
+      },
+      "location": {
+        "street": {
+          "number": 4310,
+          "name": "Gullhaugveien"
+        },
+        "city": "Trondheim",
+        "state": "Rogaland",
+        "country": "Norway",
+        "postcode": "7726",
+        "coordinates": {
+          "latitude": "46.6091",
+          "longitude": "-29.9051"
+        },
+        "timezone": {
+          "offset": "+5:00",
+          "description": "Ekaterinburg, Islamabad, Karachi, Tashkent"
+        }
+      },
+      "email": "artur.schjerven@example.com",
+      "login": {
+        "uuid": "1bb64d93-5068-4996-91e9-4281270769c8",
+        "username": "tinymeercat371",
+        "password": "barron",
+        "salt": "uaxGJKxM",
+        "md5": "1a8d87b466921079de30932c0ba7f4bd",
+        "sha1": "950cb5f13e87b3978ff77f4fea63ffd6367a6c91",
+        "sha256": "375a50f5f53224599442f77fc3c1f6fd55b00ad6b1096d07ac5ee7c00473ebac"
+      },
+      "dob": {
+        "date": "1952-04-17T12:33:11.279Z",
+        "age": 73
+      },
+      "registered": {
+        "date": "2012-06-09T12:01:31.405Z",
+        "age": 13
+      },
+      "phone": "24043575",
+      "cell": "91117907",
+      "id": {
+        "name": "FN",
+        "value": "17045241165"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/8.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/8.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/8.jpg"
+      },
+      "nat": "NO"
+    }
+  ],
+  "info": {
+    "seed": "d9616ad2f602e2c4",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  },
+  "ingestion_timestamp": "2025-10-24T01:04:52.869731",
+  "source": "randomuser"
+}

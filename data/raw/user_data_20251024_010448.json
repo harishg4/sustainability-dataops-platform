@@ -1,0 +1,68 @@
+{
+  "results": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Tur",
+        "last": "Guk"
+      },
+      "location": {
+        "street": {
+          "number": 1402,
+          "name": "Kreysera"
+        },
+        "city": "Novogrodivka",
+        "state": "Hmelnicka",
+        "country": "Ukraine",
+        "postcode": 95991,
+        "coordinates": {
+          "latitude": "75.6159",
+          "longitude": "-113.3556"
+        },
+        "timezone": {
+          "offset": "-9:00",
+          "description": "Alaska"
+        }
+      },
+      "email": "tur.guk@example.com",
+      "login": {
+        "uuid": "e32279ef-c3af-4a77-875c-03f8d5d60ed6",
+        "username": "goldensnake149",
+        "password": "holden",
+        "salt": "WmP0NEEI",
+        "md5": "6ac359f50869a47a7551529e39310418",
+        "sha1": "7a32eaff478e93ff8e06c69fd2baa8cb29fb5c5c",
+        "sha256": "af93cc4e4b458955cf15530b869a2c4c646b8e316e81f942fa7df4b85917cac6"
+      },
+      "dob": {
+        "date": "1958-02-11T07:29:42.860Z",
+        "age": 67
+      },
+      "registered": {
+        "date": "2021-04-03T07:38:21.564Z",
+        "age": 4
+      },
+      "phone": "(098) J84-0883",
+      "cell": "(096) U45-0344",
+      "id": {
+        "name": "",
+        "value": null
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/52.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/52.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/52.jpg"
+      },
+      "nat": "UA"
+    }
+  ],
+  "info": {
+    "seed": "88e91a9e2b265885",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  },
+  "ingestion_timestamp": "2025-10-24T01:04:48.573993",
+  "source": "randomuser"
+}

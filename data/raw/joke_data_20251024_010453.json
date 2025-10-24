@@ -1,0 +1,9 @@
+{
+  "type": "general",
+  "setup": "What kind of award did the dentist receive?",
+  "punchline": "A little plaque.",
+  "id": 250,
+  "ingestion_timestamp": "2025-10-24T01:04:53.179324",
+  "source": "joke-api"
+}ource": "joke-api"
+}

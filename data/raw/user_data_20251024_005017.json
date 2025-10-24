@@ -1,0 +1,68 @@
+{
+  "results": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Co\u015fkun",
+        "last": "Aclan"
+      },
+      "location": {
+        "street": {
+          "number": 5331,
+          "name": "Ba\u011fdat Cd"
+        },
+        "city": "Sakarya",
+        "state": "Karab\u00fck",
+        "country": "Turkey",
+        "postcode": 96687,
+        "coordinates": {
+          "latitude": "68.7790",
+          "longitude": "-65.0313"
+        },
+        "timezone": {
+          "offset": "+9:30",
+          "description": "Adelaide, Darwin"
+        }
+      },
+      "email": "coskun.aclan@example.com",
+      "login": {
+        "uuid": "30e8daff-3c4e-4439-8867-3aa9593051ec",
+        "username": "happyladybug276",
+        "password": "macleod",
+        "salt": "nXq5tnLr",
+        "md5": "0a25a93ab27b00b8fbb2ec80ad10bbfd",
+        "sha1": "dc3f28a621492ab0d83d529488b7685e28a622f0",
+        "sha256": "5646aadd86faf7dc00e86d57a07d848a3d4635a5586903a77544d5bebf115241"
+      },
+      "dob": {
+        "date": "1981-09-30T00:18:10.789Z",
+        "age": 44
+      },
+      "registered": {
+        "date": "2015-11-18T21:52:34.719Z",
+        "age": 9
+      },
+      "phone": "(362)-030-9720",
+      "cell": "(763)-213-5629",
+      "id": {
+        "name": "",
+        "value": null
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/56.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/56.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/56.jpg"
+      },
+      "nat": "TR"
+    }
+  ],
+  "info": {
+    "seed": "6c0b1e02fb4ad160",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  },
+  "ingestion_timestamp": "2025-10-24T00:50:17.487147",
+  "source": "randomuser"
+}
