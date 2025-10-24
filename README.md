@@ -203,7 +203,7 @@ Password: minioadmin
 **Harish Naidu Gaddam**  
 *Data Engineer | Cloud & Lakehouse Enthusiast*  
 📧 hnaidugaddam@gmail.com  
-🔗 [GitHub](https://github.com/harishg4) • [LinkedIn](https://linkedin.com/in/harishgaddam)
+🔗 [GitHub](https://github.com/harishg4) • [LinkedIn](https://linkedin.com/in/harish-gaddam)
 
 ---
 
